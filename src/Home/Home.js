@@ -12,6 +12,7 @@ import React from "react";
 import "antd/dist/antd.css";
 import './Home.css'
 import NestedTable from "./Table";
+import TableNew from './Table1'
 import logo from '../Assets/jk-logo.png' 
 
 const { SubMenu } = Menu;
@@ -45,21 +46,12 @@ class Home extends React.Component {
             defaultSelectedKeys={["1"]}
             defaultOpenKeys={["sub1"]}
             mode="inline"
-            // theme="dark"
             inlineCollapsed={this.state.collapsed}
           >
             <img className="task-img" src={logo} />
-            {/* <Menu.Item key="2" icon={<DesktopOutlined />}>
-              Option 2
-            </Menu.Item>
-            <Menu.Item key="3" icon={<ContainerOutlined />}>
-              Option 3
-            </Menu.Item> */}
             <SubMenu key="sub1" icon={<MailOutlined />} title="Employee Management">
-              <Menu.Item key="5">Option 5</Menu.Item>
-              <Menu.Item key="6">Option 6</Menu.Item>
-              <Menu.Item key="7">Option 7</Menu.Item>
-              <Menu.Item key="8">Option 8</Menu.Item>
+              <Menu.Item key="5">Employee Tasks</Menu.Item>
+              <Menu.Item key="6">Employee Task Tab</Menu.Item>
             </SubMenu>
             <SubMenu
               key="sub2"
@@ -76,7 +68,7 @@ class Home extends React.Component {
           </Menu>
         </div>
         <div className="table-div">
-          <NestedTable />
+          <TableNew />
         </div>
       </div>
     );
