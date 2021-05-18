@@ -1,0 +1,12 @@
+.outer-div{
+    display: flex;
+}
+
+.table-div{
+    margin: 3%;
+    width: 100%;
+}
+
+.left-div{
+    margin-top: 20px;
+}
