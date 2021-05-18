@@ -8,10 +8,12 @@ import {
   ContainerOutlined,
   MailOutlined,
 } from '@ant-design/icons';
+import React from 'react'
+import 'antd/dist/antd.css';
 
 const { SubMenu } = Menu;
 
-class App extends React.Component {
+class Home extends React.Component {
   state = {
     collapsed: false,
   };

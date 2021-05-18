@@ -1,25 +1,18 @@
 import React from 'react';
-
+import logo from '../Assets/jk-logo.png'
+import './Login.css'
 
 function Login() {
     return (
-
-        <div style={{ backgroundColor: "white", paddingBottom: 300 }}>
-            <img src={logo} className="App-logo"  />
+        <div className="outer-div">
+            <img src={logo} />
             <input type="text" placeholder="Enter Username"/>
             <input type="text" placeholder="Enter password"/>
             
-
-
-            <TouchableOpacity style={styles.button}
-                onPress={() => this.props.navigation.navigate('MENU')}>
-                <Text style={styles.buttontext}>LOG IN</Text>
-            </TouchableOpacity>
-
+            <button >
+                LOG IN
+            </button>
         </div>
-
-
-
     );
 }
 
