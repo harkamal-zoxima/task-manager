@@ -4,9 +4,17 @@
 
 .table-div{
     margin: 3%;
+    margin-top: 6%;
     width: 100%;
 }
 
 .left-div{
     margin-top: 20px;
+}
+
+.task-img{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-left: 10%;
 }

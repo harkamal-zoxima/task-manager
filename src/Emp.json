@@ -1,0 +1,68 @@
+{
+    "Data":[
+        {
+            "empCode":1,
+            "name":"Raghav Raj",
+            "designation":"Senior Tech. consultant",
+            "salary":6,
+            "startDate":"01/05/2021",
+            "status":true
+        },
+        {
+            "empCode":2,
+            "name":"Keshav Jhanvar",
+            "designation":"Senior Tech. consultant",
+            "salary":8.4,
+            "startDate":"01/05/2021",
+            "status":true
+        },
+        {
+            "empCode":3,
+            "name":"Raghav Raj",
+            "designation":"Senior Tech. consultant",
+            "salary":6,
+            "startDate":"01/05/2021",
+            "status":true
+        },
+        {
+            "empCode":4,
+            "name":"Raghav Raj",
+            "designation":"Senior Developer",
+            "salary":6,
+            "startDate":"01/05/2021",
+            "status":true
+        },
+        {
+            "empCode":5,
+            "name":"Raghav Raj",
+            "designation":"Senior Tech. consultant",
+            "salary":6,
+            "startDate":"01/05/2021",
+            "status":true
+        },
+        {
+            "empCode":6,
+            "name":"Raghav Raj",
+            "designation":"Senior Tech. consultant",
+            "salary":6,
+            "startDate":"01/05/2021",
+            "status":true
+        },
+        {
+            "empCode":7,
+            "name":"Raghav Raj",
+            "designation":"Senior Tech. consultant",
+            "salary":6,
+            "startDate":"01/05/2021",
+            "status":true
+        },
+        {
+            "empCode":8,
+            "name":"Raghav Raj",
+            "designation":"Senior Tech. consultant",
+            "salary":6,
+            "startDate":"01/05/2021",
+            "status":true
+        }
+    ]
+}
