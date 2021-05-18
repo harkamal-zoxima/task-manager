@@ -3,6 +3,7 @@ import './App.css';
 import Home from './Home/Home'
 import Login from './Login/Login';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import AddEmp from './AddEmp';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Login} />
         <Route path="/home" component={Home} />
+        <Route path="/addemp" component={AddEmp} />
       </Switch>
     </Router>
   );
